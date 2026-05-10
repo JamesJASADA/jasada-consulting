@@ -5,7 +5,7 @@ export const SITE = {
   heroHeading: "Experienced Consulting",
   heroSubheading: "Helping you design success!",
   /** Served from /public (also kept under static/ in repo). */
-  emblemPath: "/JASADAEmblem1kx1k72p.png",
+  emblemPath: "/BlkEmblem.jpg",
   /** Set `NEXT_PUBLIC_CONTACT_EMAIL` in Vercel to override the default. */
   contactEmail:
     process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@jasadallc.com",

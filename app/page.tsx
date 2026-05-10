@@ -132,7 +132,7 @@ export default function Home() {
                   id="contact-heading"
                   className="cds--type-productive-heading-04 cds--margin-bottom-05 page-section-title"
                 >
-                  Book online
+                  Email us
                 </h2>
                 <p className="cds--type-body-01 cds--margin-bottom-05">
                   Ready to talk? Send us a message and we&apos;ll follow up on next

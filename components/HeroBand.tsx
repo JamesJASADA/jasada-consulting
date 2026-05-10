@@ -33,7 +33,7 @@ export function HeroBand() {
                 renderIcon={ArrowRight}
                 iconDescription="Go to booking"
               >
-                Book online
+                Email us
               </Button>
             </Column>
             <Column lg={8} md={6} sm={4} className="hero-band__emblem-column">

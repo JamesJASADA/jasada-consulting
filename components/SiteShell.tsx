@@ -36,7 +36,7 @@ export function SiteShell({
           </HeaderNavigation>
           <HeaderGlobalBar>
             <HeaderGlobalAction
-              aria-label="Book online"
+              aria-label="Email us"
               tooltipAlignment="end"
               onClick={() =>
                 document
