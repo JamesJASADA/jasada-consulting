@@ -2,10 +2,10 @@
 
 export const SITE = {
   title: "JASADA, LLC ",
-  heroHeading: "Experienced Consulting",
+  heroHeading: "Experienced Consulting - New Website Coming Soon",
   heroSubheading: "Helping you design success!",
-  /** Served from /public (also kept under static/ in repo). */
-  emblemPath: "/JASADAEmblem1kx1k72p.png",
+  /** Served from /public (source asset under static/). */
+  emblemPath: "/WhtGldEmblem.jpg",
   /** Set `NEXT_PUBLIC_CONTACT_EMAIL` in Vercel to override the default. */
   contactEmail:
     process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@jasada.com",

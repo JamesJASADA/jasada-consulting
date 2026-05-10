@@ -3,8 +3,6 @@
   --jasada-accent: #c9a227;
   --jasada-accent-deep: #9a7619;
   --jasada-accent-soft: rgba(201, 162, 39, 0.45);
-  --jasada-hero-glow: rgba(255, 220, 140, 0.18);
-  --jasada-hero-mist: rgba(120, 160, 220, 0.12);
 }
 
 html {
@@ -61,34 +59,11 @@ body {
   opacity: 0.85;
 }
 
-/* ——— Hero ——— */
+/* ——— Hero: flat black to match emblem JPEG background (#000) ——— */
 .hero-band {
   position: relative;
   overflow: hidden;
-}
-
-.hero-band::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(
-      ellipse 90% 70% at 95% 15%,
-      var(--jasada-hero-glow),
-      transparent 52%
-    ),
-    radial-gradient(
-      ellipse 65% 55% at 5% 95%,
-      var(--jasada-hero-mist),
-      transparent 50%
-    ),
-    linear-gradient(
-      165deg,
-      rgba(22, 22, 22, 0.98) 0%,
-      rgba(38, 38, 38, 1) 48%,
-      rgba(28, 28, 28, 1) 100%
-    );
-  pointer-events: none;
+  background-color: #000000;
 }
 
 .hero-band__inner {

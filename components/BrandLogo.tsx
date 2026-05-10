@@ -3,9 +3,10 @@
 import Image from "next/image";
 import { EMBLEM_TITLE_TOOLTIP, SITE } from "@/lib/site";
 
+/** Intrinsic size of public/WhtGldEmblem.jpg (JPEG baseline 384×240). */
 const dimensions = {
   header: { width: 40, height: 40, className: "brand-logo--header" },
-  hero: { width: 360, height: 360, className: "brand-logo--hero" },
+  hero: { width: 384, height: 240, className: "brand-logo--hero" },
   footer: { width: 52, height: 52, className: "brand-logo--footer" },
   watermark: { width: 220, height: 220, className: "brand-logo--watermark" },
 } as const;
@@ -36,6 +37,7 @@ export function BrandLogo({
   const eager =
     priority || variant === "header";
 
+  // Skip optimizer: Turbopack dev can return null from the pipeline for this JPEG.
   return (
     <Image
       src={SITE.emblemPath}
@@ -43,6 +45,7 @@ export function BrandLogo({
       title={resolvedTitle}
       width={d.width}
       height={d.height}
+      unoptimized
       priority={priority}
       loading={eager ? "eager" : "lazy"}
       sizes={
