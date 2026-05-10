@@ -8,7 +8,7 @@ export const SITE = {
   emblemPath: "/JASADAEmblem1kx1k72p.png",
   /** Set `NEXT_PUBLIC_CONTACT_EMAIL` in Vercel to override the default. */
   contactEmail:
-    process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@jasadallc.com",
+    process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@jasada.com",
 } as const;
 
 /** Emblem registration (New Mexico Secretary of State, Feb. 1989), per company history. */
