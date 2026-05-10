@@ -1,7 +1,7 @@
 /** Site copy and links migrated from https://jasadallc.godaddysites.com */
 
 export const SITE = {
-  title: "JASADA, LLC",
+  title: "JASADA, LLC ",
   heroHeading: "Experienced Consulting",
   heroSubheading: "Helping you design success!",
   /** Served from /public (also kept under static/ in repo). */
